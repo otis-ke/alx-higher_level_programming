@@ -1,1 +1,3 @@
-import string;__import__('sys').stdout.write(string.ascii_uppercase + '\n')
+import dis
+dis.dis(magic_calculation)
+
