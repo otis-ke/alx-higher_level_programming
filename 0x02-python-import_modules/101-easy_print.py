@@ -1,2 +1,2 @@
-echo 'import os; os.write(1, b"#pythoniscool\\n")' > /tmp/print.py
-python /tmp/print.py
+#!/usr/bin/python3
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))

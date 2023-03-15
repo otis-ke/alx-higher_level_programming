@@ -1,3 +1,3 @@
-import dis
-dis.dis(magic_calculation)
-
+#!/usr/bin/python3
+import string
+print(string.ascii_uppercase)
